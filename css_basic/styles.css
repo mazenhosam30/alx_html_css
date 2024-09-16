@@ -1,35 +1,84 @@
-/* Make the body a flex container and stack its children vertically */
+/* Set a background color for the entire body */
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
-    margin: 0;
+    background-color: #f0f8ff; /* Light blue background */
 }
 
-/* Make the main a flex container and place its children (article and aside) in a row */
-main {
-    display: flex;
-    flex-direction: row;
-    flex: auto; /* Allows the main section to grow and fill available space */
+/* Customize the header */
+header {
+    background-color: #4682b4; /* Steel blue background */
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
 }
 
-/* Set the layout proportions for article and aside */
+/* Customize the footer */
+footer {
+    background-color: #4682b4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Customize the article and aside */
 article {
-    flex: 2; /* Takes up 2/3 of the available width */
-    overflow-y: auto; /* Allow scrolling if content overflows vertically */
-    padding: 20px; /* Optional: add some padding for better appearance */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
 }
 
 aside {
-    flex: 1; /* Takes up 1/3 of the available width */
-    overflow-y: auto; /* Allow scrolling if content overflows vertically */
-    padding: 20px; /* Optional: add some padding */
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
 }
 
-/* Optional: Styling for header and footer */
-header, footer {
-    padding: 20px;
-    background-color: #f1f1f1;
-    text-align: center;
-    border: 1px solid #ddd;
+/* Optional: Add a border and padding to the main container */
+main {
+    border: 2px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Example of text styling within article */
+article p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Style hyperlinks */
+a {
+    color: #4682b4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Logo styling */
+.logo {article h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+article h2 {
+    font-size: 22px;
+    color: #666;
+}
+
+article ul {
+    padding-left: 20px;
+}
+
+article ul li {
+    margin-bottom: 10px;
+}
+
+    font-size: 36px; /* Make it bigger */
+    color: #ffcc00;  /* Sun-like yellow */
+    margin-right: 20px;
 }
