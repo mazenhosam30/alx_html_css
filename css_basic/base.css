@@ -197,4 +197,19 @@ h6 {
   header .right {
   	float: none;
   }
+  @media (max-width: 768px) {
+    body.works_on_smartphone {
+        /* Adjust the flex-direction for mobile */
+        flex-direction: column;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    article, aside {
+        width: 100%;
+        flex: none; /* Disable flex behavior on mobile */
+    }
+}
 }
