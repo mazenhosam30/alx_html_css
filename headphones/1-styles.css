@@ -1,0 +1,203 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background-color: #0a1120;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+header .logo img {
+  width: 100px;
+}
+/* Navigation styling */
+nav ul {
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 40px; /* Add space between the items */
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font: x-small;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* Hero Section */
+.header {
+  text-align: center;
+  color: #fff;
+  padding: 200px 20px;
+  background-image: url('c:/Users/Administrator/Pictures/headphones_hero_1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.header p1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header p2 {
+  font-size: 20px;
+}
+
+.header button {
+  padding: 15px 30px;
+  background-color: #ff4c61;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.header p3 {
+  margin-top: 20px;
+  font-size: 8px;
+
+}
+
+
+/* What We Do Section */
+.what-we-do {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.what-we-do h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.what-we-do p1 {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.what-we-do i img {
+  width: 800px;
+  padding: 10px;
+}
+
+/* Results Section */
+.results {
+  background-color: #0a1120;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.results h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.results p1 {
+  font-size: 18px;
+  margin-bottom: 50px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.results dev {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.results dev i1,
+.results dev i2,
+.results dev i3,
+.results dev i4 {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+
+.results dev img {
+  width: 100%;
+  height: auto;
+}
+
+/* Contact Us Section */
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.contact input,
+.contact textarea {
+  width: 60%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact textarea {
+  height: 120px;
+}
+
+.contact button {
+  padding: 15px 40px;
+  background-color: #ff4c61;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #0a1120;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer img {
+  width: 120px;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 10px;
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+
